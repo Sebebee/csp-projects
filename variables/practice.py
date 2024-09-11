@@ -1,4 +1,4 @@
-name = ("sebastian")
+name ="sebastian"
 lilNum = 4
 bigNum = 67
 breakfast =  ("43-bananas")

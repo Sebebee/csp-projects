@@ -1,6 +1,10 @@
 #include <stdio.h>
+#include <math.h>
 
 int main(void){
-    printf("Hello World");
+    int num = pow(2,5);
+
+    printf("%f",num);
+   
     return 0;
 }
