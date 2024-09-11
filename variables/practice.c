@@ -1,18 +1,18 @@
 #include <stdio.h>
 
 int main(void){
-    printf("Hello World:");
+    
     char myname[]="sebastian";
-    int lilnum= 5;
-    int bignum=194;
+    int lilnum = 5;
+    int bignum = 194;
     char myBreakfast[]="shake";
     char myfavcolor[]="RoyalPurple";
     char schoolName[]="Utah County Academy of sciences";
-    int year=2024;
+    int year = 2024;
     char eyecolor[]="notblue";
-    int myage=15;
+    int myage = 5;
     char favsubject[]="lunch";
-printf("%s",myname,l$d,ilnum,bignum,myBreakfast,myfavcolor,schoolName,year,eyecolor,myage,favsubject);
+printf("%s \n %s \n ",myname,myBreakfast);
     return 0;
    
 }
