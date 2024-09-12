@@ -28,7 +28,7 @@ pexpenses = expenses/income;
    printf("your income is: $%.2f\n", income);
    printf("your expenses is: $%.2f\n", expenses);
    printf("your savings is: $%.2f\n", savings);
-   printf("your total let to spend: $%.2f\n", total);
+   printf("your total left to spend is: $%.2f\n", total);
 printf("your rent is %.2f", prent, "of you income");
 
     return 0;
