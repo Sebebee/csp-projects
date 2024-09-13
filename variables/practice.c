@@ -12,7 +12,7 @@ int main(void){
     char eyecolor[]="notblue";
     int myage = 5;
     char favsubject[]="lunch";
-printf("%s \n %s \n %s \n %s \n %s \n %s",myname,myBreakfast,myfavcolor,schoolName,eyecolor,favsubject,lilnum,bignum,);
+printf("%s \n %s \n %s \n %s \n %s \n %s \n %d \n %d \n %d \n %d",myname,myBreakfast,myfavcolor,schoolName,eyecolor,favsubject,lilnum,bignum,year,myage);
     return 0;
    
 }
