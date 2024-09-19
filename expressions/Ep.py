@@ -57,3 +57,11 @@ equation1=1**4*2**2+3**3
 equation2=-2**5/4
 answer=equation1+equation2
 print(answer)
+
+equation1=22/2-2*5
+exponents=equation1**2
+equation2=4-6/6
+exponents2=equation2**2
+answer=exponents+exponents2
+
+print(answer)
