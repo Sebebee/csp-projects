@@ -1,0 +1,1 @@
+#print("Your monthly expenses is ", rent+utilities+Groceries+transportation)
