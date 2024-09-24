@@ -16,11 +16,11 @@ expenses = inIncome-rent-utilities-Groceries-transportation
 savings= inIncome/percentageSavings
 spending = inIncome-expenses
 
-print("Your monthly savings is ",savings)
+print("Your monthly savings is ",savings*100)
 print("Your monthly expenses is ", expenses)
 print("Your spending money is",spending)
-
-print("your rent is%",rentP,"of your income")
-print("your utilities is%",utilitiesP,"of your income")
-print("your Groceries is%",Groceriesp,"of your income")
-print("your transportation is%",transportationP,"of your income")
+ 
+print("your rent is%",rentP*100,"of your income")
+print("your utilities is%",utilitiesP*100,"of your income")
+print("your Groceries is%",Groceriesp*100,"of your income")
+print("your transportation is%",transportationP*100,"of your income")
