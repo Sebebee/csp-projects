@@ -1,4 +1,5 @@
 name = input("what is your name?:")
+decoration = input("type to decorate your name:")
 #((( Name )))
 #--- Name ---
 #:) :) Name :) :)
@@ -6,10 +7,5 @@ name = input("what is your name?:")
 ##+++ Name +++
 #~~~ Name ~~~
 #=== Name ===
-print("<<<<<",name,">>>>>")
-print("(((",name,")))")
-print("---",name,"---")
-print(":) :)",name,":) :)")
-print("+++",name,"+++")
-print("~~~",name,"~~~")
-print("===",name,"===")
+print(decoration+name+decoration)
+decoration = input("insert new decoration:")
