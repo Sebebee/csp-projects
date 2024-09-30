@@ -4,6 +4,8 @@ name= input("type a name:")
 place= input("type a place:")
 verb = input("type a verb:")
 noun = input("type a noun:")
+intro= "went to the"
+mid="where they"
+end="and bought a"
 
-name = print(name,"went to the") 
-
+print (name,intro,place,mid,verb,end,noun)
