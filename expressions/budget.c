@@ -33,6 +33,6 @@ printf("\n Your utilities is %d%% of your income",(int)putilities);
 printf("\n Your groceries is %d%% of your income",(int)pgroceries);
 printf("\n Your transportation is %d%% of your income",(int)ptransportation);
 printf("\n Your expenses is %d%% of your income",(int)pexpenses);
-
+//i
     return 0;
 }
