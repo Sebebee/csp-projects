@@ -14,22 +14,21 @@ scanf("%f", & utilities);
 scanf("%f", & groceries);
 printf ("how mucch is transportation?\n ");
 scanf("%f", & transportation);
-printf ("how mucch is expenses?\n ");
-scanf("%f", & expenses);
-printf ("how mucch is savings?\n ");
-scanf("%f", & savings);
+
 expenses = rent + utilities + groceries + transportation;
 total = income - expenses - savings;
-prent = rent/income;
-putilities = utilities/income;
-pgroceries = groceries/income;
-ptransportation = transportation/income;
-pexpenses = expenses/income;
+savings = income*.2;
+prent = rent/income*100;
+putilities = utilities/income*100;
+pgroceries = groceries/income*100;
+ptransportation = transportation/income*100;
+pexpenses = expenses/income*100;
+
    printf("your income is: $%.2f\n", income);
    printf("your expenses is: $%.2f\n", expenses);
    printf("your savings is: $%.2f\n", savings);
    printf("your total left to spend is: $%.2f\n", total);
-printf("your rent is %.2f", prent, "of you income");
+printf("your rent is %.2f%% of you income", "%d",prent);
 
     return 0;
 }
