@@ -1,7 +1,7 @@
 
-def hello(greetings):
+def hello(name):
     name=input("what is your name?:")
-    greetings = ("Hi")
-    return greetings,name
+    
+    print ("hi",name)
 
-hello
+hello()

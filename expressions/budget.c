@@ -28,7 +28,11 @@ pexpenses = expenses/income*100;
    printf("your expenses is: $%.2f\n", expenses);
    printf("your savings is: $%.2f\n", savings);
    printf("your total left to spend is: $%.2f\n", total);
-printf("your rent is %.2f%% of you income", "%d",prent);
+printf("your rent is %d%% of you income",(int)prent);
+printf("\n Your utilities is %d%% of your income",(int)putilities);
+printf("\n Your groceries is %d%% of your income",(int)pgroceries);
+printf("\n Your transportation is %d%% of your income",(int)ptransportation);
+printf("\n Your expenses is %d%% of your income",(int)pexpenses);
 
     return 0;
 }
