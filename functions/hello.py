@@ -1,7 +1,12 @@
 
-def hello(name,greetings,sentence):
-    name=input("what is your name?:")
-    sentence=name+greetings
-    print ("hi",name)
+def hello():
+    name = input("what is your name?: ")
+    greetings = " hello "  
+    sentence = greetings + name
+    print(sentence)
 
+hello()
+hello()
+hello()
+hello()
 hello()
