@@ -1,3 +1,8 @@
+def enlightenMe(type):
+   
+   return 0 
+
+
 
 print("This low level calculator made by some guy who needs a good grade will kinda calculate your expenses.")
 inIncome= int (input("what is your monthly income?: "))
