@@ -1,4 +1,6 @@
-rentP= rent/inIncome
-utilitiesP= utilities/inIncome
-Groceriesp=Groceries/inIncome
-transportationP=transportation/inIncome
+inIncome= enlightenMe("income")
+rent= enlightenMe("rent")
+utilities= enlightenMe("utilites")
+Groceries= enlightenMe("groceries")
+transportation= enlightenMe("transportation")
+percentageSavings = enlightenMe("percentagesavings")

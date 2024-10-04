@@ -1,16 +1,20 @@
 def enlightenMe(type):
-   
-   return 0 
+  insert = input(f"what is your monthly {type}: ")
+  return int(insert)
 
 
 
-print("This low level calculator made by some guy who needs a good grade will kinda calculate your expenses.")
-inIncome= int (input("what is your monthly income?: "))
-rent= int (input("how much do you spend on rent?: "))
-utilities= int (input ("how much do you spend on utlities?: "))
-Groceries= int (input("how much do you spend on Groceries: "))
-transportation= int (input("how much do you spend on transportation: "))
-percentageSavings = int (input("what percentage of your income would you like to save?: "))
+print("This low level calculator made by some guy who needs a good grade and will kinda calculate your expenses.")
+inIncome= enlightenMe("income")
+rent= enlightenMe("rent")
+utilities= enlightenMe("utilites")
+Groceries= enlightenMe("groceries")
+transportation= enlightenMe("transportation")
+percentageSavings = enlightenMe("what percentage of your income do you wanna save?")
+
+def calculate(type,amount):
+ per = amount/inIncome * 100
+ print(f"your {type} is {per}% of your income. ")
 
 rentP= rent/inIncome
 utilitiesP= utilities/inIncome
@@ -25,7 +29,4 @@ print("Your monthly savings is ",savings*100)
 print("Your monthly expenses is ", expenses)
 print("Your spending money is",spending)
  
-print("your rent is%",rentP*100,"of your income")
-print("your utilities is%",utilitiesP*100,"of your income")
-print("your Groceries is%",Groceriesp*100,"of your income")
-print("your transportation is%",transportationP*100,"of your income")
+calculate("rent",rent)
