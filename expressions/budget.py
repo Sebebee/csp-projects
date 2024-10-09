@@ -16,11 +16,6 @@ def calculate(type,amount):
  per = amount/inIncome * 100
  print(f"your {type} is {per}% of your income. ")
 
-rentP= rent/inIncome
-utilitiesP= utilities/inIncome
-Groceriesp=Groceries/inIncome
-transportationP=transportation/inIncome
-
 expenses = inIncome-rent-utilities-Groceries-transportation
 savings= inIncome*.2
 spending = inIncome-expenses
@@ -33,3 +28,4 @@ calculate("rent",rent)
 calculate("utilities",utilities)
 calculate("groceries",Groceries)
 calculate("transportation",transportation)
+#put it on the beat bro
