@@ -1,4 +1,3 @@
-#include <stdio.h>
 
 int main (void){
  int age[80];
@@ -18,4 +17,3 @@ if (age>=18){
 
 
     return 0;
-}
