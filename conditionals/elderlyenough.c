@@ -3,7 +3,7 @@
 int main (void){
  int age;
 printf("What is your age?\n:");
-scanf("%d", age);
+scanf("%d", &age);
 if (age>=18){
     printf("You are old enough to vote");
 }else if (age<18 && age>=16){
