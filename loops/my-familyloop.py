@@ -1,4 +1,8 @@
-family=["Kid1","kid2","kid3","Joemama","parent2"]
+Wordbank=["hello","timpanogos","drake"]
+word = "placeholder"
+for i in range(1,4): 
+    if i ==2:
+        word = "hello"
+    elif i==3:
+        word = "timpanogos"
 
-for fam in family: #fam is each individual item in family list
-    print("Hello",fam)

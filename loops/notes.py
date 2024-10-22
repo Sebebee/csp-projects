@@ -1,5 +1,5 @@
 import random
-character=["womp","King richard the 54th","huh"]
+wordBank=["womp","K"huh"]
 num =0
 rand = random.randint(1,10)
 
